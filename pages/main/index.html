@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelter-main</title>
+    <link rel="icon" href="./../../assets/icons/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="shadow">
+    </div>
+    <div class="wraper">
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="./../main/index.html">
+                        <p class="logo-title">Cozy House</p>
+                        <p class="logo-subtitle">Shelter for pets in Boston</p>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#about" data-i18="about" class="nav-link active">About the shelter</a></li>
+                        <li class="nav-item"><a href="./../pets/index.html" data-i18="pets" class="nav-link">Our pets</a></li>
+                        <li class="nav-item"><a href="#help" data-i18="help" class="nav-link">Help the shelter</a></li>
+                        <li class="nav-item"><a href="#contacts" data-i18="contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                </div>
+                <div class="menu">
+                    <div class="menu-logo">
+                        <a href="./../main/index.html">
+                            <p class="logo-title">Cozy House</p>
+                            <p class="logo-subtitle">Shelter for pets in Boston</p>
+                        </a>
+                    </div>
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#about" data-i18="about" class="menu-link active">About the shelter</a></li>
+                        <li class="menu-item"><a href="./../pets/index.html" data-i18="pets" class="menu-link">Our pets</a></li>
+                        <li class="menu-item"><a href="#help" data-i18="help" class="menu-link">Help the shelter</a></li>
+                        <li class="menu-item"><a href="#contacts" data-i18="contacts" class="menu-link">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container hero">
+                <section class="section" id="hero">
+                    <div class="hero-container">
+                        <h1 class="hero-title" data-i18="hero-title">Not only people need a house</h1>
+                        <p class="hero-text" data-i18="hero-text">We offer to give a chance to a little and nice puppy with an extremely
+                             wide and open heart. He or she will love you more than anybody else
+                              in the world, you will see!
+                        </p>
+                        <button class="hero-btn ripple" data-i18="friend">
+                            <a href="#pets">Make a friend</a>
+                        </button>
+                    </div>
+                    <div class="hero-img">
+                        <img src="./../../assets/images/start-screen-puppy-1280.png" alt="start-screen-puppy">
+                    </div>
+                </section>
+            </div>
+            <div class="container about">
+                <section class="section" id="about">
+                    <div class="about-img">
+                        <img src="./../../assets/images/about-pets-1280.png" alt="/about-pets">
+                    </div>
+                    <div class="about-container">
+                        <h2 class="about-title title" data-i18="about-title">About the shelter “Cozy House”</h2>
+                        <p class="about-text" data-i18="about-text-1">Currently we have 121 dogs and 342 cats on our hands and statistics
+                             show that only 20% of them will find a family. The others will continue to live with us and will be waiting
+                              for a lucky chance to become dearly loved.
+                        </p>
+                        <p class="about-text" data-i18="about-text-2">We feed our wards with the best food and make sure that they do not
+                             get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 
+                             employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of 
+                             the animals, they become attached to the pets and would hardly ever leave them alone.
+                       </p> 
+                    </div>
+                </section>
+            </div>
+            <div class="container pets">
+                <section class="section" id="pets">
+                    <h2 class="pets-title title" data-i18="pets-title">Our friends who<br>are looking for a house</h2>
+                    <div class="slider">
+                        <div class="arrow-btn back"><img src="./../../assets/icons/Arrow-back.svg" alt="back-arrow"></div>
+                        <div class="carousel-wraper" id="carousel-wraper">
+                            <div class="carousel" id="carousel">
+                                <div class="carousel-block" id="block-left">
+                                    <div class="slider-item" id="2" data-i18="slider-item-2">
+                                        <img class="slider-item-img" src="./../../assets/images/pets/sophia.png" alt="sophia">
+                                        <h3 class="slider-item-title">Sophia</h3>
+                                        <button class="slider-item-btn">Learn more</button>
+                                    </div>
+                                    <div class="slider-item" id="6" data-i18="slider-item-6">
+                                        <img class="slider-item-img" src="./../../assets/images/pets/timmy.png" alt="timmy">
+                                        <h3 class="slider-item-title">Timmy</h3>
+                                        <button class="slider-item-btn">Learn more</button>
+                                    </div>
+                                    <div class="slider-item" id="8" data-i18="slider-item-8">
+                                        <img class="slider-item-img" src="./../../assets/images/pets/charly.png" alt="charly">
+                                        <h3 class="slider-item-title">Charly</h3>
+                                        <button class="slider-item-btn">Learn more</button>
+                                    </div>
+                                </div>
+                                <div class="carousel-block" id="block-active">
+                                    <div class="slider-item" id="5" data-i18="slider-item-5">
+                                        <img class="slider-item-img" src="./../../assets/images/pets/katrine.png" alt="katrine">
+                                        <h3 class="slider-item-title">Katrine</h3>
+                                        <button class="slider-item-btn">Learn more</button>
+                                    </div>
+                                    <div class="slider-item" id="1" data-i18="slider-item-1">
+                                        <img class="slider-item-img" src="./../../assets/images/pets/jennifer.png" alt="jennifer">
+                                        <h3 class="slider-item-title">Jennifer</h3>
+                                        <button class="slider-item-btn">Learn more</button>
+                                    </div>
+                                    <div class="slider-item" id="3" data-i18="slider-item-3">
+                                        <img class="slider-item-img" src="./../../assets/images/pets/woody.png" alt="woody">
+                                        <h3 class="slider-item-title">Woody</h3>
+                                        <button class="slider-item-btn">Learn more</button>
+                                    </div>
+                                </div>
+                                <div class="carousel-block" id="block-right">
+                                    <div class="slider-item" id="4" data-i18="slider-item-4">
+                                        <img class="slider-item-img" src="./../../assets/images/pets/scarlett.png" alt="scarlett">
+                                        <h3 class="slider-item-title">Scarlett</h3>
+                                        <button class="slider-item-btn">Learn more</button>
+                                    </div>
+                                    <div class="slider-item" id="1" data-i18="slider-item-1">
+                                        <img class="slider-item-img" src="./../../assets/images/pets/jennifer.png" alt="jennifer">
+                                        <h3 class="slider-item-title">Jennifer</h3>
+                                        <button class="slider-item-btn">Learn more</button>
+                                    </div>
+                                    <div class="slider-item" id="7" data-i18="slider-item-7">
+                                        <img class="slider-item-img" src="./../../assets/images/pets/freddie.png" alt="freddie">
+                                        <h3 class="slider-item-title">Freddie</h3>
+                                        <button class="slider-item-btn">Learn more</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="arrow-btn forward"><img src="./../../assets/icons/Arrow-forward.svg" alt="forward-arrow"></div>
+                    </div>
+                    <button class="slider-btn">
+                        <a href="./../pets/index.html">Get to know the rest</a>
+                    </button>
+                </section>
+            </div>
+            <div class="container help">
+                <section class="section" id="help">
+                    <h2 class="help-title title" data-i18="help-title">How you can help our shelter</h2>
+                    <div class="help-container">
+                        <div class="list-item">
+                            <img src="./../../assets/icons/icon-pet-food.svg" alt="pet-food">
+                            <p>Pet food</p>
+                        </div>
+                        <div class="list-item">
+                            <img src="./../../assets/icons/icon-transportation.svg" alt="transportation">
+                            <p>Transportation</p>
+                        </div>
+                        <div class="list-item">
+                            <img src="./../../assets/icons/icon-toys.svg" alt="toys">
+                            <p>Toys</p>
+                        </div>
+                        <div class="list-item">
+                            <img src="./../../assets/icons/icon-bowls-and-cups.svg" alt="bowls-and-cups">
+                            <p>Bowls and cups</p>
+                        </div>
+                        <div class="list-item">
+                            <img src="./../../assets/icons/icon-shampoos.svg" alt="shampoos">
+                            <p>Shampoos</p>
+                        </div>
+                        <div class="list-item">
+                            <img src="./../../assets/icons/icon-vitamins.svg" alt="vitamins">
+                            <p>Vitamins</p>
+                        </div>
+                        <div class="list-item">
+                            <img src="./../../assets/icons/icon-medicines.svg" alt="medicines">
+                            <p>Medicines</p>
+                        </div>
+                        <div class="list-item">
+                            <img src="./../../assets/icons/icon-collars-leashes.svg" alt="collars-leashes">
+                            <p>Collars / leashes</p>
+                        </div>
+                        <div class="list-item">
+                            <img src="./../../assets/icons/icon-sleeping-area.svg" alt="sleeping-area">
+                            <p>Sleeping areas</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="container donation">
+                <section class="section" id="donation">
+                    <div class="donation-content">
+                        <div class="donation-img">
+                            <img src="./../../assets/images/donation-dog-1280.png" alt="donation-dog">
+                        </div>
+                        <div class="donation-container">
+                            <h2 class="donation-title title" data-i18="donation-title">You can also make a donation</h2>
+                            <p class="donation-text">Name of the bank / Type of bank account</p>
+                            <div class="donation-bank">
+                                <img src="./../../assets/icons/credit-card-1280.svg" alt="credit-card">
+                                <p class="donation-bank-number"><a href="javascript:void(0);">8380 2880 8028 8791 7435</a></p>
+                            </div>
+                            <p class="donation-subtext">
+                                Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas 
+                                a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. 
+                                Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-container" id="contacts">
+                    <div class="footer-container-item contacts">
+                        <h2 class="footer-container-item-title title">For questions and suggestions</h2>
+                        <div class="footer-container-item-title-data contats">
+                            <a href="mailto:email@shelter.com"><img src="./../../assets/icons/icon-email.svg" alt=""></a>
+                            <a href="mailto:email@shelter.com" class="footer-link-text">email@shelter.com</a>
+                        </div>
+                        <div class="footer-container-item-title-data contats">
+                            <a href="tel:+136745677554"><img src="./../../assets/icons/icon-phone.svg" alt=""></a>
+                            <a href="tel:+136745677554" class="footer-link-text">+13 674 567 75 54</a>
+                        </div>
+                    </div>
+                    <div class="footer-container-item location">
+                        <h2 class="footer-container-item-title title">We are waiting for your visit</h2>
+                        <div class="footer-container-item-title-data location">
+                            <a href="https://goo.gl/maps/J7M6XVkJnBdhi2tv9" target="_blank">
+                                <img src="./../../assets/icons/icon-location.png" alt="">
+                            </a>
+                            <a href="https://goo.gl/maps/J7M6XVkJnBdhi2tv9" target="_blank" class="footer-link-text">1 Central Street, Boston 
+                                (entrance from the store)</a>
+                        </div>
+                        <div class="footer-container-item-title-data location">
+                            <a href="https://goo.gl/maps/ctVcDM8xqokTdWbP6" target="_blank">
+                                <img src="./../../assets/icons/icon-location.png" alt="">
+                            </a>
+                            <a href="https://goo.gl/maps/ctVcDM8xqokTdWbP6" target="_blank" class="footer-link-text">18 South Park, London </a>
+                        </div>
+                    </div>
+                    <div class="footer-puppy">
+                        <img src="./../../assets/images/footer-puppy-1280.png" alt="footer-puppy">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-body">
+            <div class="popup-content">
+                <button class="popup-btn"><img src="./../../assets/icons/Close-cross.svg" alt="close"></button>
+                <img class="popup-img" src="./../../assets/images/pets/scarlett.png" alt="">
+                <div class="popup-container">
+                    <div class="popup-titles">
+                        <h3 class="popup-title">Jennifer</h3>
+                        <h4 class="popup-subtitle">Dog - Labrador</h4>
+                    </div>
+                    <p class="popup-description">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+                    <ul class="popup-list">
+                        <li class="popup-list-item">
+                            <span class="popup-list-item-bold">Age: </span>
+                            <span data-popup="age">2 months</span>
+                        </li>
+                        <li class="popup-list-item">
+                            <span class="popup-list-item-bold">Inoculations: </span>
+                            <span data-popup="inoculations">none</span>
+                        </li>
+                        <li class="popup-list-item">
+                            <span class="popup-list-item-bold">Diseases: </span>
+                            <span data-popup="diseases">none</span>
+                        </li>
+                        <li class="popup-list-item">
+                            <span class="popup-list-item-bold">Parasites: </span>
+                            <span data-popup="parasites">none</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
