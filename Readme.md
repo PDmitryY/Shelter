@@ -1,1 +1,1 @@
-Deploy at https://PDmitryY.github.io/Shelter/main
+Deploy at https://PDmitryY.github.io/Shelter/pages/main
